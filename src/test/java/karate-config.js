@@ -9,7 +9,9 @@ function fn() {
 	if (env == 'dev') {
 		baseUri = 'https://simple-books-api.glitch.me';
 		path='/books'
-		uiUrl = 'https://www.amazon.com/';
+		jsonHolderBaseUri = 'https://jsonplaceholder.typicode.com';
+		putUsersPathJsonHolder = '/posts';
+		uiUrl = 'https://www.bestbuy.com/';
 	}
 	// don't waste time waiting for a connection or if servers don't respond within 5 seconds
 	karate.configure('connectTimeout', 5000);

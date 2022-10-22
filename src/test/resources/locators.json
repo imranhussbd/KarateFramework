@@ -1,0 +1,5 @@
+{
+	"searchInput" : "#gh-search-input",
+	"searchButton" : ".header-search-button",
+	"itemCount":"//a[text()='Sony - PlayStation 5 Console']"
+}
